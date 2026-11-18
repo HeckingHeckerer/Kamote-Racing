@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dvntbp6cbam30"]
+
+[ext_resource type="PackedScene" uid="uid://cuog48tj6hmyj" path="res://Assets/Characters/toyota-fortuner-2021/source/fortuner_2021.fbx" id="1_2g6hp"]
+
+[node name="fortuner_2021" unique_id=535408187 instance=ExtResource("1_2g6hp")]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)

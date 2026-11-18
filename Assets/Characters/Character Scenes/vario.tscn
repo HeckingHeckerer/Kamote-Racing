@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bll1we1hb0lmc"]
+
+[ext_resource type="PackedScene" uid="uid://or6boj5ctmra" path="res://Assets/Characters/Bonjing/source/vario.fbx" id="1_tg1h4"]
+
+[node name="vario" unique_id=928990794 instance=ExtResource("1_tg1h4")]
+
+[node name="stang_vario" parent="." index="1" unique_id=238246944]
+transform = Transform3D(-0.9983409, -0.05534021, -0.01589727, -0.04880236, 0.95980024, -0.27640906, 0.030554723, -0.27517462, -0.9609087, -0.058466338, 0.654687, 0.53965455)
