@@ -45,6 +45,7 @@ brake={
 [physics]
 
 3d/physics_engine="Jolt Physics"
+jolt_physics_3d/main_scene="uid://jhvlsfjeqa73"
 
 [rendering]
 
