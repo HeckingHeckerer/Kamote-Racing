@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Kamote Racers"
-run/main_scene="uid://btilcbjh5jkbu"
+run/main_scene="uid://jhvlsfjeqa73"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GlobalComicShader="*uid://corfftevawypt"
 
 [input]
 
@@ -46,3 +50,38 @@ brake={
 
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="mobile"
+
+[shader_globals]
+
+bddots_attenuation_factor={
+"type": "float",
+"value": 0.1
+}
+bddots_density={
+"type": "float",
+"value": 100.0
+}
+bddots_pivot={
+"type": "vec2",
+"value": Vector2(0.5, 0.5)
+}
+bddots_rotation={
+"type": "float",
+"value": 0.5
+}
+bddots_softness={
+"type": "float",
+"value": 0.01
+}
+bddots_texture={
+"type": "sampler2D",
+"value": "res://Kamote Racing Game/Resources/Shaders/Toon/bddots_gradient.tres"
+}
+bddots_falloff_threshold={
+"type": "float",
+"value": 3.0
+}
+bddots_lit_threshold={
+"type": "float",
+"value": 1.0
+}
